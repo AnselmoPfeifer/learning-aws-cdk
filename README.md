@@ -1,5 +1,16 @@
+# Learning AWS CDK
 
-# Welcome to your CDK Python project!
+## Getting Started
+```
+nvm install 18 && nvm use 18
+npm install -g aws-cdk  
+cdk init sample-app --language python
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Welcome to your CDK Python project!
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`learning_aws_cdk_stack`)
 which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
